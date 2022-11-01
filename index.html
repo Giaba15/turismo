@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turismo.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+  </head>
+  
+  <body>  
+      <!-- -encabezado- -->
+      <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Reservas al (54)11578426462</p>
+      </header>
+
+      <!-- inicio de la navegación -->              
+      <nav class="navbar navbar-expand-lg bg-light p-3">
+          <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <span class="text-primary fs-5 fw-bold">Turismo.com</span> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Destinos</a>
+                    </li>  
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Paquetes</a>
+                    </li>  
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Actividades</a>
+                    </li>  
+                  </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                      </form>
+                </div>
+              </div>
+            </nav>
+
+            <!--Carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="./img/carru1.jpg" class="d-block w-100" alt="carru1">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="./img/carru2.jpg" class="d-block w-100" alt="carru2">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="./img/carru3.jpg" class="d-block w-100" alt="carru3">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="./img/carru4.jpg" class="d-block w-100" alt="carru4">
+                </div>
+
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Titulo -->
+            <section class="w-50 mx-auto text-center pt-5" id="intro">
+
+              <h1 class="p-3 fs-2 border-top border-3">Viaja por los mejores lugares turisticos</h1>
+
+              <p class="p-3 fs-4"><span class="text-primary">Turismo.com</span> es la mejor agencia de viajes, donde encontraras todo lo que estas buscando y al mejor precio</p>
+            </section>
+            
+            <!--card -->
+            <div class="row p-3 text-center d-flex justify-content-center" id="card">
+
+                <!-- Columna1 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/argentina.jpg" class="card-img-top" alt="argentina">
+                    <div class="card-body">
+                      <h5 class="card-title">Argentina</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Columna2 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/colombia.jpg" class="card-img-top" alt="colombia">
+                    <div class="card-body">
+                      <h5 class="card-title">Colombia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Columna3 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./img/mexico.jpg" class="card-img-top" alt="mexico">
+                    <div class="card-body">
+                      <h5 class="card-title">México</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Más Información</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+          <!-- formulario-->
+          <div class="container w-50 mt-3">
+            <div class="container mb-5" style="max-width: 500px;" id="contenedor-formulario">
+              <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="./img/agente-del-cliente.png" alt="agente-del-cliente" class="img-fluid w-50 pt-3"></div>
+                <h2>Contacto</h2>
+                <p class="fs-5">No lo pienses más y contáctanos para brindarte más información</p>
+                </div>
+              <div class="row">
+                <form action="">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Juan Torres" required>
+                    </div>
+      
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                      <input type="tel" class="form-control" id="tel" placeholder="00-000-000" required>
+                    </div>
+      
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                    </div>
+      
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje" rows="3"></textarea>
+                    </div>
+      
+                    <div class="mb-3">
+                      <button type="submit" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                    </div>
+  
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pie de pagina -->
+          
+          <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+            <p class="f-5 px-3 pt-3">Turismo.com &copy; Todos Los Derechos Reservados 2022</p>
+          </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

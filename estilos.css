@@ -1,0 +1,49 @@
+
+body{
+    overflow-x: hidden;
+}
+.carousel-inner{
+    max-height: 39rem !important;
+}
+
+.container{
+   background-color: #f3f3f3;
+   border-radius: 3%;
+
+}
+
+
+footer{
+    background-color: #1b2a4e;
+    min-height: 100px;
+
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+    
+}
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro #card{
+        width:90% !important;
+        margin:auto;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+   
+    #card{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
